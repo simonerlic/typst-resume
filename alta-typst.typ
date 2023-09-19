@@ -32,6 +32,15 @@
   text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
 }
 
+#let position(title, affiliation, period, location) = {
+  text(size: 9.8pt, weight: "bold")[#title]
+  h(1fr)
+  text(size: 9.8pt, style: "italic")[#affiliation]
+  linebreak()
+
+  text(9pt)[#period]
+}
+
 #let max_rating = 5
 #let skill(name, rating) = {
   let done = false
@@ -115,7 +124,7 @@
   tagline
 
   columns(
-    2,
+    1,
     gutter: 15pt,
     content,
   )
