@@ -1,4 +1,4 @@
-#import "alta-typst.typ": alta, term, skill, styled-link, position
+#import "alta-typst.typ": alta, term, styled-link, position, skills, medium
 
 #alta(
   name: "Simon Erlic",
@@ -12,19 +12,20 @@
   ),
   tagline: [Software Engineering Student, Open Source Enthusiast, and Self-Described Maker],
   [
-    == Experience
-
-    #position[Junior Software Engineer][Precision MicroDynamics Inc.][Sep 2021 --- Dec 2021][Victoria, BC, Canada]
-    - Researched, designed, and developed an OpenCV-based fiducial detection program for the automated measurement of distortion and calculation of calibration files for F-theta lenses on an industrial galvoscanner CNC platform. 
-    - Rewrote legacy RPC methods to utlize gRPC and Protocol Buffers for communication between machine operator software and the server software.
-    - Created a JavaScript library for the communication between the server software and client web-based user interfaces.
-    - Designed and implemented a CI/CD pipeline for server software using Buildbot and Docker
 
     == Education
 
     #position[Bachelor of Software Engineering][University of Victoria][Sep 2019 --- Dec 2025][Victoria, BC, Canada]
     - B.Eng. Software Engineering with 8 months of real-world work experience.
     
+    == Experience
+
+    #position[Junior Software Engineer][Precision MicroDynamics Inc.][Sep 2021 --- Dec 2021][Victoria, BC, Canada]
+    - Researched, designed, and developed an #text(weight: "medium")[OpenCV]-based fiducial detection program for the automated measurement of distortion and calculation of calibration files for F-theta lenses on an industrial galvoscanner CNC platform. 
+    - Rewrote legacy RPC methods to utlize #text(weight: "medium")[gRPC] and #text(weight: "medium")[Protocol Buffers] for communication between machine operator software and the server software.
+    - Created a #text(weight: "medium")[JavaScript] library for the communication between the server software and client web-based user interfaces.
+    - Designed and implemented a #text(weight: "medium")[CI/CD pipeline] for server software using #text(weight: "medium")[Buildbot] and #text(weight: "medium")[Docker]
+
     == Projects
 
     ==== #link("https://github.com/simonerlic/colour-guesser/")[Prismatic] \
@@ -37,15 +38,14 @@
     Minutemen VR is a virtual reality game developed in Unity. In the game, the player takes the role of a Minuteman silo operator from the 1960s. The player is tasked with maintaining the various systems in the silo in a timely manner, with more tasks being assigned as the game progresses.
 
     ==== UVic Engineering Competition \
-    In the summer of 2023, I organized the programming competition for the UVic Engineering Competition. My role entailed creating the problem statement, aiding judges in the marking of the submissions, and managing the competition.
+    In the summer of 2023, I organized and hosted the programming competition for the UVic Engineering Competition.
 
     == Skills
 
-    #skill("Python", 5)
-    #skill("C++", 4)
-    #skill("C#", 3)
-    #skill("Swift", 3)
-    #skill("TypeScript", 4)
-    #skill("Git", 5)
+      *Languages:* Python, C, C++, C\#, Dart, Swift, JavaScript, TypeScript, HTML, CSS
+
+      *Frameworks:* Flutter, React, Unity, Unreal Engine, WPF
+
+      *Tools:* Git, Docker, Linux, OpenCV, gRPC
   ],
 )

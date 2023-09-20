@@ -41,38 +41,26 @@
   text(9pt)[#period]
 }
 
-#let max_rating = 5
-#let skill(name, rating) = {
-  let done = false
-  let i = 1
+#let medium(text) = {
+  text(weight: "medium")[#text]
+}
 
-  name
+#let skills(languages, tools, frameworks) = {
+  // Three columns that are 1/3 of the page
+  columns(
+    3,
+    gutter: 15pt,
+    [
+      // Languages
+      #languages
+      
+      // Tools
+      #tools
 
-  h(1fr)
-
-  while (not done){
-    let colour = rgb("#c0c0c0") // grey
-
-    if (i <= rating){
-      colour = primary_colour
-    }
-
-    box(circle(
-      radius: 4pt,
-      fill: colour
-    ))
-
-    if (max_rating == i){
-      done = true
-    } else {
-      // no spacing on last
-      h(2pt)
-    }
-
-    i += 1
-  }
-
-  [\ ]
+      // Frameworks
+      #frameworks
+    ]
+  )
 }
 
 #let styled-link(dest, content) = emph(text(
