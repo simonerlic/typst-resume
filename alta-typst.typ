@@ -35,14 +35,14 @@
 #let position(title, affiliation, period, location) = {
   text(size: 9.8pt, weight: "bold")[#title]
   h(1fr)
-  text(size: 9.8pt, style: "italic")[#affiliation]
+  text(size: 9.8pt, style: "italic")[#period]
   linebreak()
 
-  text(9pt)[#period]
+  text(9pt)[#affiliation]
 }
 
 #let medium(text) = {
-  text(weight: "medium")[#text]
+  text(weight: "medium")[#affiliation]
 }
 
 #let skills(languages, tools, frameworks) = {
