@@ -8,7 +8,7 @@
     (name: "website", link: "https://simonerlic.com/", display: "https://simonerlic.com"),
     (name: "github", link: "https://github.com/simonerlic", display: "@simonerlic"),
     (name: "linkedin", link: "https://linkedin.com/in/simonerlic", display: "Simon Erlic"),
-    (name: "location", link: "https://goo.gl/maps/6Y5Y1Z8Z1Z1Z1Z1Z1", display: "Victoria, BC, CA")
+    (name: "location", link: "", display: "Victoria, BC, CA")
   ),
   tagline: [Software Engineering Student, Open Source Software Enthusiast, and Self-Described Maker],
   [
