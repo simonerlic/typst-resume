@@ -22,7 +22,7 @@
 
     #position[Junior Software Engineer][Precision MicroDynamics Inc.][Sep 2021 --- Dec 2021][Victoria, BC, Canada]
     - Researched, designed, and developed an #text(weight: "medium")[OpenCV]-based fiducial detection program for the automated measurement of distortion and calculation of calibration files for F-theta lenses on an industrial galvoscanner CNC platform. 
-    - Rewrote legacy RPC methods to utlize #text(weight: "medium")[gRPC] and #text(weight: "medium")[Protocol Buffers] for communication between machine operator software and the server software.
+    - Rewrote legacy RPC methods to utilize #text(weight: "medium")[gRPC] and #text(weight: "medium")[Protocol Buffers] for communication between machine operator software and the server software.
     - Created a #text(weight: "medium")[JavaScript] library for the communication between the server software and client web-based user interfaces.
     - Designed and implemented a #text(weight: "medium")[CI/CD pipeline] for server software using #text(weight: "medium")[Buildbot] and #text(weight: "medium")[Docker]
 
