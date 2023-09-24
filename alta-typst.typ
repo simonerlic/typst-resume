@@ -63,6 +63,20 @@
   )
 }
 
+#let tshape(left:[], right:[]) = {
+  table(
+    columns: (auto, auto),
+    gutter: 15pt,
+    stroke: none,
+    [
+      #left
+    ],
+    [
+      #right
+    ]
+  )
+}
+
 #let styled-link(dest, content) = emph(text(
     fill: link_colour,
     link(dest, content)
