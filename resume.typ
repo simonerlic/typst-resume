@@ -10,12 +10,12 @@
     (name: "linkedin", link: "https://linkedin.com/in/simonerlic", display: "Simon Erlic"),
     (name: "location", link: "", display: "Victoria, BC, CA")
   ),
-  tagline: [Software Engineering Student, Open Source Software Enthusiast, and Self-Described Maker],
+  tagline: [Software Engineering Student, Open Source Software Enthusiast, and Maker],
   [
 
     == Education
 
-    #position[Bachelor of Software Engineering][University of Victoria][Sep 2019 --- Dec 2025][Victoria, BC, Canada]
+    #position[Bachelor of Software Engineering][University of Victoria][Sep 2019 --- May 2025][Victoria, BC, Canada]
     - Current pursuing a specializations in Performance and Scalability, and Machine Learning
     
     == Experience
