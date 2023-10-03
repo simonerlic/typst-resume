@@ -1,7 +1,7 @@
 #import "alta-typst.typ": alta, term, styled-link, position, skills, medium
 
 #alta(
-  name: "Simon Erlic",
+  name: "Sime Erlic",
   links: (
     (name: "phone", link: "tel:+1-250-857-5479", display: "+1 (250) 857-5479"),
     (name: "email", link: "mailto:simon@erlic.ca"),
