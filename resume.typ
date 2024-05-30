@@ -20,13 +20,13 @@
     
     == Experience
 
-    #position[Software Designer Co-op][Schneider Electric][Jan 2024 --- Aug 2024][Victoria, BC, Canada]
+    #position[Schneider Electric][Software Designer Co-op][Jan 2024 --- Aug 2024][Victoria, BC, Canada]
     - Wrote, debugged, and added features to a #text(weight: "medium")[ASP.NET] web application for monitoring electrical equipment in industrial settings.
     - Migrated essential build and deployment workflows from #text(weight: "medium")[Azure DevOps] to #text(weight: "medium")[GitHub Actions] for CI/CD pipelines.
     - Wrote a web-based dashboard for the management of the team's CI/CD pipelines using #text(weight: "medium")[.NET 8.0] and #text(weight: "medium")[Blazor].
     - Wrote a locally-based #text(weight: "medium")[machine learning]-based tool to assist in the identification and resolution of electrical health issues.
 
-    #position[Junior Software Engineer][Precision MicroDynamics Inc.][Sep 2022 --- Dec 2022][Victoria, BC, Canada]
+    #position[Precision MicroDynamics Inc.][Junior Software Engineer][Sep 2022 --- Dec 2022][Victoria, BC, Canada]
     - Researched, designed, and developed an #text(weight: "medium")[OpenCV]-based fiducial detection program for the automated measurement of distortion and calculation of calibration files for F-theta lenses on an industrial galvoscanner CNC platform. 
     - Rewrote legacy RPC methods to utilize #text(weight: "medium")[gRPC] and #text(weight: "medium")[Protocol Buffers] for communication between machine operator software and the server software.
     - Created a #text(weight: "medium")[JavaScript] library for the communication between the server software and client web-based user interfaces.
