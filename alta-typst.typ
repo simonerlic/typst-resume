@@ -1,4 +1,5 @@
-#let primary_colour = rgb("#3E0C87") // vivid purple
+// teal primary colour
+#let primary_colour = rgb("#008080")
 #let link_colour = rgb("#12348e") // blue
 
 #let icon(name, shift: 1.5pt) = {
@@ -35,10 +36,10 @@
 #let position(title, affiliation, period, location) = {
   text(size: 9.8pt, weight: "bold")[#title]
   h(1fr)
-  text(size: 9.8pt, style: "italic")[#period]
+  text(size: 9.8pt)[#period]
   linebreak()
 
-  text(9pt)[#affiliation]
+  text(9.8pt, style: "italic")[#affiliation]
 }
 
 #let medium(text) = {
@@ -119,10 +120,11 @@
     it.body
   )
 
-  [= #name]
+  text(size: 12pt)[= #name]
   
   findMe(links)
 
+  
   tagline
 
   columns(
